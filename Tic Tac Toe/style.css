@@ -29,6 +29,7 @@ body{
     box-shadow: 0 0 1rem #B8C0FF;
     font-size: 10vmin;
     color: rgb(130, 69, 186);
+    background-color: rgb(255, 255, 255);
 }
 #reset-btn{
     padding: 1rem;
