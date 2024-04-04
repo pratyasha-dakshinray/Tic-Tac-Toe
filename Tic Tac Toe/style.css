@@ -30,3 +30,11 @@ body{
     font-size: 10vmin;
     color: rgb(130, 69, 186);
 }
+#reset-btn{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #530d9e;
+    color: #fcd0fc;
+    border-radius: 1rem;
+    border: none;
+}
