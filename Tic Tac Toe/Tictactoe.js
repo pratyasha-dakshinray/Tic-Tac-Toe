@@ -29,11 +29,11 @@ boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turnO) {
       
-      box.innerText = "O";
+      box.innerText = "X";
       turnO = false;
     } else {
        
-      box.innerText = "X";
+      box.innerText = "O";
       turnO = true;
     }
     box.disabled = true;
@@ -48,7 +48,7 @@ boxes.forEach((box) => {
 });
 
 const gameDraw = () => {
-  msg.innerText = `Oops Draw`;
+  msg.innerText = `You are a monkey`;
   msgContainer.classList.remove("hide");
   disableBoxes();
 };
@@ -67,7 +67,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-  msg.innerText = `Congratulations, Winner is ${winner}`;
+  msg.innerText = ` Rasagola ${winner}`;
   msgContainer.classList.remove("hide");
   disableBoxes();
 };
